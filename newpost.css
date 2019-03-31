@@ -1,0 +1,353 @@
+body {
+    font-family: 'Karla', sans-serif;
+    color: #0e0e0f;
+    margin-right: 0px !important;
+}
+
+#header {
+    background: #000043;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+#loginsignup {
+    text-align: right !important;
+    font-size: .7em;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+#headerTitle {
+    font-size: 4em;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 4px;
+}
+
+@media (max-width: 576px) {
+    #headerTitle {
+    font-size: 3em
+    }
+}
+
+#mainNav {
+    text-align: center !important;
+}
+
+/* unvisited link */
+.headerNav a:link {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+/* visited link */
+.headerNav a:visited {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+/* mouse over link */
+.headerNav a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    font-size: 1.2em;
+}
+
+/* selected link */
+.headerNav a:active {
+    color: #fff;
+    font-size: 1.2em;
+    border-bottom: 1px solid #fff;
+    
+}
+
+.mainNavLinks {
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+h1 {
+    color: #0e0e0f;
+    font-weight: bold;
+    text-align: center !important;
+    font-size: 2em;
+}
+
+#h1border {
+    border-bottom: 2px solid #0e0e0f;
+}
+
+#main {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#createEventForm {
+    width: 80%;
+    margin-top: 25px;
+}
+
+@media (min-width: 1024px) {
+    #createEventForm {
+      margin-left: 60px;
+      padding-left: 0px;
+      margin-right: 0px;
+      padding-right: 0px;
+    }
+}
+
+.generalForm {
+    width: 80%;
+    margin-top: 25px;
+}
+
+@media (min-width: 1024px) {
+    .generalForm {
+      margin-left: 60px;
+      padding-left: 0px;
+      margin-right: 0px;
+      padding-right: 0px;
+    }
+}
+
+textarea {
+    width: 100%;
+    height: 140px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=text], [type=password], [type=date], [type=time], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+input[type=submit] {
+    background-color: #000043;
+    color: white;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: #000099;
+}
+
+#formContent {
+    resize: none !important;
+}
+
+#eventList {
+    margin-top: 25px;
+}
+
+
+.uniquePost {
+    margin-bottom: 20px;
+}
+
+/*some interesting stuff here for responsive tables but not exactly*/
+/*@media (max-width: 768px) {*/
+/*      #eventTable tr {    display: table;  width:100%;    }               */
+/*      #eventTable td {    display: table-row; }*/
+/*      #eventTable th {    display: table-row; } */
+/*    }*/
+
+@media (min-width: 1024px) {
+    #main {
+      margin-left: 0;
+      padding-left: 0;
+      margin-right: 0;
+      padding-right: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    #main {
+      margin-left: 0;
+      padding-left: 0;
+      margin-right: 0;
+      padding-right: 0;
+    }
+}
+
+@media (min-width: 1500px) {
+    #main {
+      margin-left: 0;
+      padding-left: 0;
+      margin-right: 0;
+      padding-right: 0;
+    }
+}
+
+@media (min-width: 1600px) {
+    #main {
+      margin-left: 0px;
+      padding-left: 0px;
+      margin-right: 0px;
+      padding-right: 0px;
+    }
+}
+
+hr {
+    margin-top: 45px;
+    margin-bottom: 55px;
+    border-color: darkgray;
+}
+
+/* unvisited link */
+a:link {
+    color: #000043;
+    font-size: 1.2em;
+}
+
+/* visited link */
+a:visited {
+    color: #000043;
+    font-size: 1.2em;
+}
+
+/* mouse over link */
+a:hover {
+    color: #000099;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #000099;
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #000043;
+    color: white;
+    padding: 10px 14px;
+    /*margin-right: 20px;*/
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000099;
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+
+#footer {
+    background: #000043;
+    text-align: center;
+    width: 100%;
+    margin-top: 120px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-top: 16px;
+    padding-bottom: 2px;
+    color: #fff;
+}
+
+/*.sortableTH {
+    cursor: pointer;
+}
+
+.sortableTH:hover {
+    color: #0e0e0f;
+    border-bottom: 1px solid #0e0e0f;
+}
+ not needed because just making the text clickable, not the whole th*/
+
+.clickableTR:hover {
+    cursor: pointer;
+    background: #dbdbff !important;
+}
+
+.thText:hover {
+    color: #0e0e0f;
+    border-bottom: 1px solid #0e0e0f;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    margin-top: 25px;
+}
+
+.formDirections {
+    margin-top: 25px;
+}
+
+#viewEventTable {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.buttonHolder {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.deleteForm {
+    display: inline-block !important;
+    margin: auto;
+}
+
+.deleteFormWrapper {
+    text-align: center;
+}
+
+.inlineFormButtons {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.inlineFormButtonsDiv {
+    text-align: center;
+}
+
+.inlineFormButtonsDiv a:link {
+    font-size: 1em !important;
+}
+
+.inlineFormButtonsDiv a:hover {
+    font-size: 1em !important;
+}
+
+.inlineFormButtonsDiv a:active {
+    font-size: 1em !important;
+}
+
+.inlineFormButtonsDiv a:visited {
+    font-size: 1em !important;
+}
+
+.linkButton {
+    margin-top:30px;
+}
